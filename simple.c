@@ -33,7 +33,7 @@ int _myexit(info_t *info)
  * _mycd - changes the directory of the process
  * @info: Structure carrying potential arguments that is Used to maintain
  * constant function prototype.
- * Return: 0 Always
+ * Return: Always 0
  */
 int _mycd(info_t *info)
 {
@@ -83,7 +83,7 @@ int _mycd(info_t *info)
  * _myhelp - changes the directory of the process
  * @info: Structure carrying potential arguments that is Used to maintain
  * constant function prototype.
- * Return: 0 Always
+ * Return: Always 0
  */
 int _myhelp(info_t *info)
 {
