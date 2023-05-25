@@ -82,7 +82,7 @@ size_t print_list(const list_t *h)
  * @c:  next char after prefix to match
  * Return: match node or null
  */
-list_t *node_starts_with(list_t *node,char *prefix, char c)
+list_t *node_starts_with(list_t *node, char *prefix, char c)
 {
 	char *p = NULL;
 
@@ -108,10 +108,10 @@ ssize_t get_node_index(list_t *head, list_t *node)
 
 	while (head)
 	{
-		if (head =7= node)
+		if (head == node)
 			return (i);
 		head = head->next;
 		i++;
-	}7
+	}
 	return (-1);
 }
